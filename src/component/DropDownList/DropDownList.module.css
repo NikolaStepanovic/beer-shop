@@ -1,0 +1,50 @@
+.Box{
+    position: fixed;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    right: 0;
+    z-index: 20;
+    top: 7.8%;
+    padding-bottom: 20px;
+    width: 140px;
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 10px;
+}
+
+.Btn{
+    cursor: pointer;
+    margin-top: 20px;
+    width: 80%;
+    height: 50px;
+    font-size: 20px;
+    background-color: blueviolet;
+    font-weight: 1000;
+    border-radius: 10px;
+    border: none;
+    color: white;
+}
+
+.Btn:hover {
+    background-color: rgb(192, 50, 205);
+    color: black;
+}
+
+.Btn1{
+    text-decoration: none;
+    margin-top: 20px;
+    width: 80%;
+    padding-top: 10px;
+    height: 40px;
+    font-size: 20px;
+    background-color: blueviolet;
+    font-weight: 1000;
+    border-radius: 10px;
+    border: none;
+    color: white;
+}
+
+.Btn1:hover {
+    background-color: rgb(192, 50, 205);
+    color: black;
+}

@@ -1,0 +1,106 @@
+.Box{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.Container{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    border: 2px solid black;
+    margin: 20px;
+    width: 280px;
+    line-height: 16px;
+    height: 350px;
+}
+
+.image{
+    width: 30px;
+    height: 120px;
+}
+
+.Btn{
+    z-index: 10;
+    position: absolute;
+    left: 11%;
+    bottom: 6%;
+    cursor: pointer;
+    width: 100px;
+    height: 30px;
+    border-radius:10px;
+    background-color: green;
+    border: none;
+    color: white;
+}
+
+.Btn:hover {
+    color: black;
+    transition: 200ms ease-in-out;
+    background-color: yellowgreen;
+}
+
+.Btn1{
+    z-index: 10;
+    position: absolute;
+    left: 53%;
+    bottom: 6%;
+    cursor: pointer;
+    width: 100px;
+    height: 30px;
+    border-radius:10px;
+    background-color: red;
+    border: none;
+    color: white;
+}
+
+.Btn1:hover {
+    color: black;
+    transition: 200ms ease-in-out;
+    background-color: salmon;
+}
+
+.h3{
+    text-decoration: none;
+    font-weight: 1000;
+    font-size: 20px;
+    z-index: 10;
+    position: absolute;
+    width: 90%;
+    top: 3%;
+    cursor: pointer;
+    color: purple;
+}
+
+.eachIngredient{
+    font-weight: 1000;
+    margin-top: 10px;
+}
+
+.ingredients{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 20px;
+    visibility: hidden;
+    position: absolute;
+    top: 0;
+    height: 10px;
+    width: 100%;
+    background-color: rgba(0,0,0,0.7);
+    transition: 200ms ease-in;
+}
+
+.Container:hover .ingredients {
+    visibility: visible;
+    height: 100%;
+}
+

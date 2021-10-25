@@ -1,0 +1,31 @@
+.Box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 1008px;
+}
+
+.Container{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    height: 70%;
+
+}
+
+.Image{
+    width: 20%;
+    height: 70%;
+}
+
+.ContainerLeft{
+    width: 67%;
+}
+
+.p{
+    font-weight: 1000;
+    font-size: 20px;
+}
+
